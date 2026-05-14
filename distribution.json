@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "rss": "",
+  "servers": [
+    {
+      "id": "981",
+      "name": "981SMP",
+      "description": "Приватный сервер 981. Версия 1.21.1 (NeoForge)",
+      "icon": "https://raw.githubusercontent.com/ТВОЙ_НИК/ТВОЙ_РЕПО/main/icon.png",
+      "version": "1.21.1",
+      "address": "0.0.0.0:25565",
+      "discord": {
+        "shortId": "981",
+        "largeImageKey": "logo"
+      },
+      "mainServer": true,
+      "modules": [
+        {
+          "id": "net.neoforged:neoforge:21.1.55",
+          "name": "NeoForge 1.21.1",
+          "type": "Forge",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 0, 
+            "hash": "ЗДЕСЬ_SHA1_ХЕШ_ИНСТАЛЛЕРА",
+            "url": "https://ссылка-на-neoforge-installer.jar"
+          }
+        },
+        {
+          "id": "my.mod:example-mod:1.0.0",
+          "name": "Example Mod",
+          "type": "Library",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 123456,
+            "hash": "хеш_мода",
+            "url": "https://ссылка-на-github-releases/mod.jar"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,16 +1,10 @@
 {
-  "version": "1.0.0",
-  "rss": "",
-  "servers": [
-    {
-      "id": "test_local",
-      "name": "Тестовый сервер",
-      "description": "Для проверки запуска лаунчера",
-      "icon": "https://raw.githubusercontent.com/HeliosLauncher/HeliosLauncher/develop/build/icon.png",
-      "version": "1.21.1",
-      "address": "localhost:25565",
-      "mainServer": true,
-      "modules": []
-    }
-  ]
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "12334567890123456789",
+        "smallImageText": "WesterosCraft",
+        "smallImageKey": "seal-circle"
+    },
+    "rss": "https://westeroscraft.com/articles/index.rss",
+    "servers": []
 }
